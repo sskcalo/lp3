@@ -1,0 +1,36 @@
+.counseling-1 {
+    padding: rem(30) 0;
+
+    @media (min-width: 768px) {
+        padding: rem(60) 0 rem(20);
+    }
+
+    .total__width {
+        width: 89.7%;
+        margin: 0 auto;
+
+        @media (min-width: 768px) {
+            width: 39.7%;
+            min-width: rem(500);
+        }
+    }
+
+}
+
+.counseling-2 {
+    padding: rem(30) 0 rem(41);
+
+    @media (min-width: 768px) {
+        padding: rem(59) 0 rem(65);
+    }
+
+    .total__width {
+        width: 89.7%;
+        margin: 0 auto;
+
+        @media (min-width: 768px) {
+            width: 39.7%;
+            min-width: rem(500);
+        }
+    }
+}

@@ -1,0 +1,22 @@
+.footer {
+    height: rem(64);
+    background-color: $pink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    padding-top: rem(3);
+
+    @media (min-width: 768px) {
+        height: rem(128);
+        padding-top: rem(3);
+        padding-left: rem(2);
+    }
+
+    img {
+        width: rem(72);
+        @media (min-width: 768px) {
+            width: rem(143);
+        }
+    }
+}

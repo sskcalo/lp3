@@ -1,0 +1,196 @@
+.present {
+    background-color: #fffedd;
+    padding-top: rem(23);
+    padding-bottom: rem(18);
+
+    @media (min-width: 768px) {
+        padding-top: rem(47);
+        padding-bottom: rem(28);
+    }
+
+
+    .total__width {
+        width: 89.7%;
+        margin: 0 auto;
+
+        @media (min-width: 768px) {
+            width: 38.2%;
+            min-width: rem(400);
+        }
+    }
+}
+
+.present__text {
+    position: relative;
+    margin-left: rem(2);
+
+    p {
+        font-size: clamp(rem(10), calc(100vw/390*21), rem(35));
+        color: $pink;
+        text-align: center;
+
+        @media (min-width: 768px) {
+            font-size: clamp(rem(20), calc(100vw/1440*34), rem(50));
+            letter-spacing: -.5px;
+        }
+
+        span {
+            margin-left: rem(1);
+
+            @media (min-width: 768px) {
+                margin-left: calc(100vw/1440*12);
+            }
+        }
+    }
+}
+
+.present__text::before,
+.present__text::after {
+    position: absolute;
+    content: '';
+    background-color: $pink;
+    width: rem(2);
+    height: calc(100vw/390*27);
+    max-height: rem(40);
+    transform: rotate(30deg);
+    top: rem(-2);
+    right: 35.2%;
+
+    @media (min-width: 768px) {
+        width: rem(3);
+        height: calc(100vw/1440*44);
+        max-height: rem(60);
+        top: rem(-2);
+        right: 34.3%;
+    }
+
+}
+
+.present__text::before {
+    transform: rotate(150deg);
+    top: rem(-1);
+    left: 35.3%;
+
+    @media (min-width: 768px) {
+        top: rem(-4);
+        left: 34.8%;
+    }
+}
+
+.present__box {
+    border-spacing: 0;
+    width: 100%;
+    margin-top: rem(17);
+    margin-left: rem(1);
+
+    @media (min-width: 768px) {
+        margin-top: rem(25);
+        margin-left: rem(2);
+    }
+
+}
+
+.present__box {
+    thead {
+        tr {
+            width: 100%;
+            height: rem(31);
+            box-sizing: border-box;
+
+            @media (min-width: 768px) {
+                height: calc(100vw/1440*46);
+                min-height: rem(30);
+            }
+
+            th {
+                font-size: clamp(rem(10), calc(100vw/390*21), rem(35));
+                color: $white;
+                font-weight: 400;
+                letter-spacing: .2px;
+                background-color: $pink;
+                border: rem(1) solid $pink;
+                border-radius: rem(10) rem(10) 0 0;
+                padding-bottom: rem(5);
+
+                @media (min-width: 768px) {
+                    font-size: clamp(rem(15), calc(100vw/1440*32), rem(45));
+                    padding-right: rem(8);
+                    padding-bottom: rem(7);
+                }
+            }
+        }
+    }
+
+}
+
+
+.present__box {
+    tbody {
+        tr {
+            width: 100%;
+            height: rem(62);
+            box-sizing: border-box;
+
+            @media (min-width: 768px) {
+                height: calc(100vw/1440*102);
+                min-height: rem(90);
+            }
+
+            td {
+
+                background-color: $white;
+                border: rem(1) solid $pink;
+                border-radius: 0 0 rem(10) rem(10);
+                text-align: center;
+                padding-left: rem(11);
+                padding-bottom: rem(7);
+
+                @media (min-width: 768px) {
+                    padding-left: rem(19);
+                    padding-bottom: rem(9);
+                }
+
+                h3 {
+                    font-size: clamp(rem(10), calc(100vw/390*27), rem(40));
+                    font-weight: 400;
+                    color: $pink;
+                    letter-spacing: .2px;
+
+                    @media (min-width: 768px) {
+                        font-size: clamp(rem(10), calc(100vw/1440*43), rem(60));
+                        letter-spacing: .8px;
+                    }
+
+                    span {
+                        font-size: clamp(rem(20), calc(100vw/390*42), rem(60));
+                        font-weight: 600;
+
+                        @media (min-width: 768px) {
+                            font-size: clamp(rem(35), calc(100vw/1440*66), rem(80));
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.present__sub-text {
+    margin-top: rem(9);
+    margin-right: rem(1);
+
+    @media (min-width: 768px) {
+        margin-top: rem(19);
+    }
+
+    p {
+        font-size: clamp(rem(10), calc(100vw/390*10), rem(20));
+        color: $black;
+
+        text-align: center;
+
+        @media (min-width: 768px) {
+            font-size: clamp(rem(14), calc(100vw/1440*14), rem(35));
+        }
+    }
+}
