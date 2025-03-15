@@ -4,6 +4,10 @@
     padding-left: rem(12);
     padding-top: rem(10);
     box-sizing: border-box;
+    position: fixed;
+    width: 100%;
+    z-index: 10000;
+    background-color: $white;
 
     @media (min-width: 768px) {
         height: rem(92);

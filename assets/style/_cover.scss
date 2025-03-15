@@ -1,13 +1,14 @@
 .cover {
     background-color: $pink;
-
     display: flex;
     flex-direction: column;
     padding-bottom: rem(18);
     overflow: hidden;
+    padding-top: 60px;
 
     @media (min-width: 768px) {
         padding-bottom: rem(35.5);
+        padding-top: 92px;
     }
 }
 
