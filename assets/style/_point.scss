@@ -90,7 +90,8 @@
 
 .point__box {
     border-spacing: 0;
-    width: 90%;
+    width: 89.6%; //90%;
+    padding-left: rem(1);
     margin: 0 auto;
     margin-bottom: rem(31);
 
@@ -164,8 +165,8 @@
                 border-radius: 0 0 rem(10) rem(10);
                 text-align: center;
                 padding-top: rem(14);
-                padding-left: rem(20);
-                padding-right: rem(21);
+                padding-left: rem(19); //rem(20);
+                padding-right: rem(20); //rem(21);
                 padding-bottom: rem(20);
 
                 @media (min-width: 768px) {
@@ -277,19 +278,22 @@
     }
 }
 
-.count__wrap--2 {
-    .count__img {
-        background-color: #fdf0f5;
-        border: rem(1) solid #666;
 
-        @media (min-width: 768px) {
-            background-color: $white;
-            border: rem(2) solid #666;
+.count {
+    .count__wrap--2 {
+        .count__box {
+            .count__img {
+                background-color: #fdf0f5;
+                border: rem(1) solid #666;
+
+                @media (min-width: 768px) {
+                    background-color: $white;
+                    border: rem(2) solid #666;
+                }
+            }
         }
     }
 }
-
-
 
 
 // ---------- POINT2  ----------

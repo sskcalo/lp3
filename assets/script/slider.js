@@ -11,6 +11,8 @@ $(function () {
             variableWidth: true,
             infinite: false,
             centerPadding: 'calc(100vw/390*25)',
+            initialSlide: 1,
+
             responsive: [
                 {
                     breakpoint: 768,
@@ -20,5 +22,4 @@ $(function () {
                 },
             ],
         })
-
 });

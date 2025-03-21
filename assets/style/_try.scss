@@ -226,7 +226,7 @@
 
         @media (min-width: 768px) {
             width: calc(100vw/1440*13);
-            height: rem(2);
+            height: calc(100vw/1440*2);//rem(2);
         }
     }
 
@@ -249,9 +249,9 @@
 
         @media (min-width: 768px) {
             width: calc(100vw/1440*13);
-            height: rem(2);
+            height: calc(100vw/1440*2);//rem(2);
             top: 29%;
-            left: 16.4%;
+            left: min(rem(140), calc(100vw/1440*90));
         }
     }
 
@@ -261,9 +261,8 @@
         left: 16.7%;
 
         @media (min-width: 768px) {
-
             top: 71%;
-            left: 16.4%;
+            left: min(rem(140), calc(100vw/1440*90));
         }
     }
 }

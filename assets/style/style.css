@@ -264,10 +264,11 @@ p {
 }
 
 .campaign__text {
-  background-color: rgba(255, 255, 255, 0.3);
-  box-shadow: 5px 5px rgba(0, 0, 0, 0.25);
+  background-color: #fca4bf;
+  box-shadow: 5px 5px #e77497;
   display: flex;
   padding: 2.4358974359vw 5.641025641vw 5.3846153846vw 6.6666666667vw;
+  position: relative;
 }
 @media (min-width: 768px) {
   .campaign__text {
@@ -824,7 +825,7 @@ p {
   .content__text span:before,
   .content__text span:after {
     width: 0.9027777778vw;
-    height: 0.125rem;
+    height: 0.1388888889vw;
   }
 }
 .content__text span:before {
@@ -847,9 +848,9 @@ p {
   .content__text p:before,
   .content__text p:after {
     width: 0.9027777778vw;
-    height: 0.125rem;
+    height: 0.1388888889vw;
     top: 29%;
-    left: 16.4%;
+    left: min(8.75rem, 6.25vw);
   }
 }
 .content__text p:before {
@@ -860,7 +861,7 @@ p {
 @media (min-width: 768px) {
   .content__text p:before {
     top: 71%;
-    left: 16.4%;
+    left: min(8.75rem, 6.25vw);
   }
 }
 
@@ -952,7 +953,8 @@ p {
 
 .point__box {
   border-spacing: 0;
-  width: 90%;
+  width: 89.6%;
+  padding-left: 0.0625rem;
   margin: 0 auto;
   margin-bottom: 1.9375rem;
 }
@@ -1019,8 +1021,8 @@ p {
   border-radius: 0 0 0.625rem 0.625rem;
   text-align: center;
   padding-top: 0.875rem;
-  padding-left: 1.25rem;
-  padding-right: 1.3125rem;
+  padding-left: 1.1875rem;
+  padding-right: 1.25rem;
   padding-bottom: 1.25rem;
 }
 @media (min-width: 768px) {
@@ -1126,12 +1128,12 @@ p {
   }
 }
 
-.count__wrap--2 .count__img {
+.count .count__wrap--2 .count__box .count__img {
   background-color: #fdf0f5;
   border: 0.0625rem solid #666;
 }
 @media (min-width: 768px) {
-  .count__wrap--2 .count__img {
+  .count .count__wrap--2 .count__box .count__img {
     background-color: #fff;
     border: 0.125rem solid #666;
   }

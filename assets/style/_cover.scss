@@ -1,6 +1,5 @@
 .cover {
     background-color: $pink;
-
     display: flex;
     flex-direction: column;
     padding-bottom: rem(18);
@@ -82,10 +81,11 @@
 }
 
 .campaign__text {
-    background-color: rgba(255, 255, 255, .3);
-    box-shadow: 5px 5px rgba(0, 0, 0, .25);
+    background-color: #fca4bf;
+    box-shadow: 5px 5px #e77497;
     display: flex;
     padding: calc(100vw/390*9.5) calc(100vw/390*22) calc(100vw/390*21) calc(100vw/390*26);
+    position: relative;
 
     @media (min-width: 768px) {
         margin-right: calc(100vw/1440*34);
